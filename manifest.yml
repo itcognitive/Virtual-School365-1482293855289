@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Virtual-School365
+  host: Virtual-School365
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-ef
